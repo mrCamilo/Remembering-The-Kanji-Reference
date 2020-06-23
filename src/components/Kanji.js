@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Kanji() {
+function Kanji(props) {
     return (
-        <div className="kanji">
-	    <p>hey it me</p>
+        <div>
+	    <p>{props.keyword}</p>
 	</div>
     )
 }
