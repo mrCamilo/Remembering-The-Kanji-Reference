@@ -2,8 +2,12 @@ import React from 'react'
 
 function Kanji(props) {
     return (
-        <div>
-	    <p>{props.keyword}</p>
+        <div className="rtkContainer">
+	    <div className="rtk">
+	        <p>{props.number}</p>
+	        <p>{props.keyword}</p>
+	        <p>{props.heisig}</p>
+	    </div>
 	</div>
     )
 }
