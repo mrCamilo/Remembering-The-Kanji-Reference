@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <header>RTK LOOKUP!</header>
+        <header className="heading">Remembering The Kanji</header>
     )
 }
 

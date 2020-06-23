@@ -1,8 +1,10 @@
 body {
 	margin: 0;
+	background-color: #968484;
 }
 
-.navbar {
+
+.heading {
 	height: 100px;
 	background-color: #333;
 	color: whitesmoke;
