@@ -7,6 +7,7 @@ function Kanji(props) {
 	        <p>{props.number}</p>
 	        <p>{props.keyword}</p>
 	        <p>{props.heisig}</p>
+	        <hr></hr>
 	    </div>
 	</div>
     )
