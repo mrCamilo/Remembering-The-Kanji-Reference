@@ -2,7 +2,10 @@ import React from 'react'
 
 function Header() {
     return (
-        <header className="heading">Remembering The Kanji</header>
+	<div>
+            <header className="heading">Remembering The Kanji</header>
+    	    <h3>Thousands of Kanji on one page!</h3>
+    	</div>
     )
 }
 
